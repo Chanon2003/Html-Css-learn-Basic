@@ -80,4 +80,30 @@ padding: 25px 50px 75px; //t=25,r,l=50,b=75
 padding: 25px 50px; //t,b=25,r,l = 50
 padding: 25px; //all = 50
 
- vertical-align: top;
+vertical-align: top;
+
+
+------------------------------------------------------------
+ep5 text style
+
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+line-height: 20px;  // ความห่าง บรรทัด
+ู//html entity middle dot -> &#183;
+//checkmarg &#10003;
+text-decoration: underline;
+<strong></strong> //ตัวใหญ๋
+<u></u>  //underline
+<span></span>
+<p>1<span>2</span><strong>3</strong></p>
+
+
+------------------------------------------------------------
+ep6 the html structure
+head{
+  <title></title>
+  <link rel="stylesheet" href="./buttons.css">
+}
