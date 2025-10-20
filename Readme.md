@@ -107,3 +107,30 @@ head{
   <title></title>
   <link rel="stylesheet" href="./buttons.css">
 }
+
+------------------------------------------------------------
+ep7 image and textbox
+ใช้ได้แค่ width ปรับขนาดเมื่อ ปรับ width height ก็จะปรับด้วย
+
+img
+height:200px
+weight:200px
+object-fit: cover; //เอาแค่ขนาดภายใน cover อาจตัดขอบ ใช้กับ
+object-position: right;
+
+object-fit: contain;//ก็จะเอาทั้งรูปไปยัดอยู่ใน 200 *200 ให้ได้
+
+.thumbnail{
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+      object-position: top;  //top,bottom,left,right
+      border: 1px solid red;
+}
+
+<input type="text">
+<input type="checkbox">  //ปุ่ม ตื้กถูก
+
+<input type="text" placeholder="Search">
+
+***ใส่ vertical-align: middle; ให้ ทุก inline/inline-block ที่ต้องการเรียงแนวเดียวกัน
