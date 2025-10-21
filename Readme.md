@@ -185,3 +185,49 @@ column-gap: 20px;
 row-gap:20px;
 
 and width:100% in container เช่นรูปที่อยู่ใน
+
+------------------------------------------------------------
+ep12
+display: flex;
+flex-direction: row;  
+
+justify-content: start;    [---      ]
+justify-content: end;      [      ---]
+justify-content: center;   [   ---   ]
+justify-content: space-between;  [-   -   -]
+
+height: 200px;
+align-items: stretch; ยืดเต็ม
+x
+x
+x
+align-items: start;
+x
+-
+-
+align-items: center;   
+-
+x
+-
+align-items: enter;
+-
+-
+x   
+
+
+<div style="background-color: lightblue; width: 100px;">div1</div>
+<div style="background-color: lightpink; flex:1">div2</div>
+<div style="background-color: lightblue; flex:2">div3</div>
+
+flex diff grid
+grid ต้องกำหนดค่ามาก่อนเช่น grid-template-columns: 100px 1fr;
+แล้ว div ต้องตรงตพแหน่ง
+flex สามารถกำหนดค่าทีหลังไดเช่น display:flex;
+width:100px;
+flex:1;
+flex:2;
+
+max-width: 300px //อาจใช้กับ flex
+
+flex:1;
+max-width: 300px;
