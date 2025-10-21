@@ -134,3 +134,24 @@ object-fit: contain;//ก็จะเอาทั้งรูปไปยัด�
 <input type="text" placeholder="Search">
 
 ***ใส่ vertical-align: middle; ให้ ทุก inline/inline-block ที่ต้องการเรียงแนวเดียวกัน
+
+------------------------------------------------------------
+ep8 css display property
+
+1.block element
+=takes up the entire line
+<p></p>,
+
+2.inline-block element
+only takes up as much space as needed
+<input>,<img>
+
+3.inline element
+appear within a line of text
+<strong></strong>
+
+block->inline-block
+display:inline-block;
+
+inline-block -> block;
+display:block;
