@@ -160,3 +160,17 @@ display:block;
 ep9 div element
 
 <div> = block
+
+------------------------------------------------------------
+ep9 div element
+vertical vs horiziontal
+v-
+1-----
+2-----
+3-----
+h-
+1 2 3 
+- - -
+- - -
+- - -
+font-family: Roboto, Arail;  //backup dont
