@@ -140,7 +140,7 @@ ep8 css display property
 
 1.block element
 =takes up the entire line
-<p></p>,
+<p></p>,<div>
 
 2.inline-block element
 only takes up as much space as needed
@@ -155,3 +155,8 @@ display:inline-block;
 
 inline-block -> block;
 display:block;
+
+------------------------------------------------------------
+ep9 div element
+
+<div> = block
