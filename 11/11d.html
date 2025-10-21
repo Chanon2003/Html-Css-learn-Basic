@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .bd {
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+      width: 200px;
+      margin: 2px 10px;
+    }
+
+    .texts {
+      margin: 5px;
+      padding-bottom: 10px;
+    }
+
+    .bigp {
+      width: 200px;
+      height: 200px;
+    }
+
+    .profile-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+
+    .friend {
+      color: gray;
+    }
+
+    p,
+    .profile-img {
+      /* vertical-align: middle; */
+      align-items: center;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .b1 {
+      margin: 5px 0px;
+      color: white;
+      background-color: rgb(0, 110, 255);
+      border: none;
+      padding: 10px 25px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px; align-items: center;
+  ">
+    <div class="bd">
+      <img class="bigp" src="penguin.jpg" alt="">
+      <div class="texts">
+        <p class="title">Oliber</p>
+        <div style="display: grid; grid-template-columns: 50px 1fr; column-gap: 5px;">
+          <img class="profile-img" src="penguin.jpg" alt="">
+          <p class="friend">2 mutual friends</p>
+        </div>
+        <button class="b1">Add friend</button>
+      </div>
+    </div>
+    <div class="bd">
+      <img class="bigp" src="penguin.jpg" alt="">
+      <div class="texts">
+        <p class="title">Oliber</p>
+        <div style="display: grid; grid-template-columns: 50px 1fr; column-gap: 5px;">
+          <img class="profile-img" src="penguin.jpg" alt="">
+          <p class="friend">2 mutual friends</p>
+        </div>
+        <button class="b1">Add friend</button>
+      </div>
+    </div>
+    <div class="bd">
+      <img class="bigp" src="penguin.jpg" alt="">
+      <div class="texts">
+        <p class="title">Oliber</p>
+        <div style="display: grid; grid-template-columns: 50px 1fr; column-gap: 5px;">
+          <img class="profile-img" src="penguin.jpg" alt="">
+          <p class="friend">2 mutual friends</p>
+        </div>
+        <button class="b1">Add friend</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

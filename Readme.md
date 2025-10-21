@@ -174,3 +174,14 @@ h-
 - - -
 - - -
 font-family: Roboto, Arail;  //backup dont
+
+------------------------------------------------------------
+ep11
+display: grid;
+grid-template-columns: 100px 100px;
+
+grid-template-columns: 100px 1fr;
+column-gap: 20px;
+row-gap:20px;
+
+and width:100% in container เช่นรูปที่อยู่ใน
