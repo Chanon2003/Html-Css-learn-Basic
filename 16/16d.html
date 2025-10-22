@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .bd {
+      display: flex;
+      column-gap: 5px;
+      border: 1px solid black;
+      width: 300px;
+    }
+
+    .pf {
+      margin: 5px;
+      position: relative;
+    }
+
+    .profile {
+      height: 50px;
+      width: 50px;
+      border-radius: 30px;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .pf2 {
+      position: absolute;
+      width: 200px;
+      display: flex;
+      column-gap: 5px;
+      align-items: center;
+      padding: 5px;
+      bottom: -80;
+      left: 10;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+    }
+
+    /* .pf:hover .pf2 {
+      opacity: 1;
+    } */
+
+    .profile:hover +.pf2 {
+      opacity: 1;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .name,
+    .year {
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bd">
+    <div class="pf">
+      <img class="profile" src="penguin.jpg" alt="">
+      <div class="pf2">
+        <img class="profile" src="penguin.jpg" alt="">
+        <div>
+          <div class="name">Name</div>
+          <div class="year">19M view</div>
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <div class="title">Talking Tech and Ai</div>
+      <div class="name">Name</div>
+      <div class="year">19M view</div>
+    </div>
+  </div>
+</body>
+
+</html>
