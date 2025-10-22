@@ -231,3 +231,22 @@ max-width: 300px //อาจใช้กับ flex
 
 flex:1;
 max-width: 300px;
+
+------------------------------------------------------------
+ep13 nested flexbox
+
+box-shadow: inset 1px 2px 5px rgba(0,0,0,0.25);
+//inset คือ เงาด้านใน
+
+margin-left: -1px;    1px push,-1px pull
+
+***
+flex-shrink: 0;
+//no matter what happend, keep this width and we're not going to shrink
+
+width:100px
+flex-shrink: 0;
+
+width:0px //shrink
+
+overflow: hidden; //ตัดส่วนเกิน

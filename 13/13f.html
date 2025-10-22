@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .bd{
+      display: flex;
+      border: 1px solid black;
+      width: 400px;
+      padding: 5px;
+    }
+
+    .dimg{
+      width: 60px;
+    }
+
+    .body1{
+      flex: 1;
+    }
+
+    .logo{
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+
+    .name{
+      font-weight: bold;
+    }
+
+    .byt{
+      overflow: hidden;
+      border-radius: 10px;
+      border: 1px solid gray;
+      display: flex;
+    }
+
+    .byt1{
+      width: 90px;
+      background-color: gray;
+    }
+
+    .byt2{
+      align-items: center;
+      padding: 10px;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="bd">
+    <div class="dimg">
+      <img class="logo" src="penguin.jpg" alt="">
+    </div>
+    <div class="body1">
+      <div>
+        <div class="name">
+          supersimple.dev <span style="color: grey;">@SuperSimpleDev</span>
+        </div>
+        <div>
+          What is backend web development? A complete overview. New video is up!
+        </div>
+      </div>
+      <!-- yt.com -->
+      <div>
+        <div class="byt">
+          <div class="byt1"></div>
+          <div class="byt2">
+            <div style="color: gray;">
+              youtube.com
+            </div>
+            <div>
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
