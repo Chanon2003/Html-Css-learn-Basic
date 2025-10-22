@@ -291,3 +291,22 @@ z-index: 0;  // 0-100 ยิ่งสูงยิ่งโชวก่อน แ
 
 //fixed ใช้แค่ div ใหญ่ ครั้งเดียว อย้่าใส่ข้างใน ซ้ำซ้อนไม่งั้นจะทับกันให้ใส่ flex แทน ข่างใน
 
+------------------------------------------------------------
+ep15 position absolute and relative
+
+position: absolute;  // แน่นอน
+ทำเหมือน fixed เลยสามารถ top:0 bottom:0 l ,r 0;
+
+**
+fixed = placed in the browser window
+absolute = placed on the page
+
+if posion absolute inside fix it's mean top 0 = top fix
+
+
+position: relative;  // ญาติ
+
+absolute ต้องตามหลังหรืออยู่ข้างในเสมอ เช่น อยู่ใน fixed,relative
+
+------------------------------------------------------------
+ep16 finish project
